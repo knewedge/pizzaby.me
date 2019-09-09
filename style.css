@@ -1,0 +1,85 @@
+*, html, body{
+	margin:0;
+	margin-top:0;
+	padding:0;
+	font-family:lucida sans, calibri, arial;
+}
+html, body{
+	height:100%;
+	width:100%;
+}
+body{
+	background-color:#dedede;
+}
+#header{
+	position:relative;
+	top:5px;
+	margin:0 auto;
+	max-width:500px;
+	min-width:300px;
+	height:70px;
+}
+#head{
+	position:relative;
+}
+#head h1{
+	color:#111;
+	word-spacing:-5px;
+	text-shadow:0 1px 1px #fff;
+}
+#head em{
+	font-size:15px;
+	color:#555555;
+}
+#search{
+	width:100%;
+	height:39px;
+	background-color:#444;
+	padding-top:11px;
+}
+#form{
+	margin:0 auto;
+	width:500px;
+}
+#form div{
+	width:290px;
+}
+#form div input{
+	height:25px;
+}
+#form div input[type="text"]{
+	width:200px;
+}
+#form div input[type="image"]{
+	float:right;
+}
+#map{
+	margin:0 auto;
+	margin-top:10px;
+	max-width:500px;
+	min-width:300px;
+	height:250px;
+	border:solid 5px #fff;
+}
+#load{
+	margin:0 auto;
+	max-width:500px;
+	min-width:300px;
+}
+#results{
+	margin:0 auto;
+	max-width:500px;
+	min-width:300px;
+	padding-top:15px;
+	line-height:1.4em;
+}
+.current{
+	max-height:400px;
+	overflow:auto;
+	margin-top:25px;
+	background-color:#ffffff;
+}
+hr{
+	margin-top:10px;
+	margin-bottom:10px;
+}
