@@ -6,7 +6,7 @@
 </head>
 <body>
 <?php
-$revi = file_get_contents('https://maps.googleapis.com/maps/api/place/details/json?reference=' . $_GET[ref] . '&sensor=false&key=$API_KEY');
+$revi = file_get_contents('https://maps.googleapis.com/maps/api/place/details/json?reference=' . $_GET[ref] . '&sensor=false&key=' . $API_KEY);
 $decc = json_decode($revi);
 ?>
 <h3><?php echo $decc->result->name; ?></h3>
